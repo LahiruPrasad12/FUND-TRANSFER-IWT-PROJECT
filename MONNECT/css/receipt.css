@@ -1,0 +1,129 @@
+body{
+
+    margin: 0;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+    
+
+}
+#overlay{
+    background-color: rgba(202, 202, 202, 0.185);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+   
+}
+.box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0px solid black;
+    border-radius: 10px;
+    width: 570px;
+    height: 400px;
+    max-width: 80%;
+    min-width: 570px;
+    background-color: white;
+    box-shadow: 8px 8px 13px #00000034;
+    z-index: 10;
+
+
+
+
+}
+.title{
+    font-weight: bold;
+  
+}
+.box-header{
+
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    background-color: rgba(53, 255, 87, 0.329);
+
+}
+.body{
+    padding: 10px 15px;
+   
+
+}
+.close a, .close{
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+.close a:hover{
+
+    color: rgb(255, 72, 72);
+    transition: 100ms;
+    
+    
+    
+}
+table,td{
+    
+ 
+    height: 40px;
+}
+canvas{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgba(0, 0, 0, 0.061);
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px #00000034;
+    z-index: 11;
+    
+
+}
+canvas:hover{
+    box-shadow: 0px 0px 35px #00000083;
+    
+    /* left: 51%; */
+    
+    transition: 200ms;
+}
+.cta{
+
+    background: rgb(212, 212, 212);
+    text-align: center;
+    width: 570px;
+    border: none;
+    color: rgb(22, 22, 22);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    padding: .5em;
+    text-decoration: none;
+    margin-top: 81px;
+    position: fixed;
+    
+
+    
+
+ 
+
+}
+
+.cta:hover{
+
+    background-color: rgb(131, 131, 131);
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+
+}
